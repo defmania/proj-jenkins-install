@@ -63,3 +63,5 @@ In ./variables.tf make sure you replace/check values for:
  --> key_name (default jenkins-key -> Jenkins server key name)
  
  --> hosted_zone (default mydomain.com) -> your hosted zone in AWS. the hosted-zone module assumes you already have a hosted zone in your AWS account.
+
+Used https://github.com/rahulwagh Jenkins project as a starting point, but made quite a few changes.
