@@ -60,16 +60,16 @@ variable "lb_target_group_protocol" {
 }
 
 variable "hostname" {
-  type = string
+  type    = string
   default = "jenkins.mydomain.com"
 }
 
 variable "key_name" {
-  type = string
+  type    = string
   default = "jenkins-key"
 }
 
 variable "hosted_zone" {
-  type = string
+  type    = string
   default = "mydomain.com"
 }
